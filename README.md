@@ -71,11 +71,11 @@ Astralis addresses these challenges through an AI-powered conversational interfa
 
 ## Landing Page
 
-![Landing](screenshots/landingPage.png)
+![Landing](screenshot/landingPage.png)
 
 ## AI Chat
 
-![Chat](screenshots/chatPage.png)
+![Chat](screenshot/chatPage.png)
 ---
 
 # 🚀 How It Works
