@@ -75,7 +75,6 @@ Astralis addresses these challenges through an AI-powered conversational interfa
 
 ## AI Chat
 
-
 ![Chat](screenshots/chatPage.png)
 ---
 
