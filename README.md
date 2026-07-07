@@ -31,8 +31,11 @@ Astralis addresses these challenges through an AI-powered conversational interfa
 - 💬 Natural language conversations
 - 🧠 Google Gemini integration
 - 🔍 Retrieval-Augmented Generation (RAG)
-- 📚 Research paper retrieval pipeline
+- 📚 Research-paper-aware AI responses using FAISS + BM25 retrieval
 - 🎨 Modern responsive UI using Tailwind CSS
+- 🪐 Floating interactive space topic bubbles
+- 💡 Instant definitions and fun facts through pop-up cards
+- 🚀 "Ask More" option for deeper AI-powered exploration
 
 ---
 
@@ -71,11 +74,12 @@ Astralis addresses these challenges through an AI-powered conversational interfa
 
 ## Landing Page
 
-![Landing](screenshot/landing.png)
+![Landing](screenshots/landing.png)
 
 ## AI Chat
 
-![Chat](screenshot/chat.png)
+![Chat](screenshots/chat.png)
+
 ---
 
 # 🚀 How It Works
@@ -94,13 +98,33 @@ Astralis addresses these challenges through an AI-powered conversational interfa
 ```
 Astralis-Beyond-Earth/
 │
-├── frontend/
 ├── backend/
+├── frontend/
+├── screenshots/
+│   ├── landing.png
+│   └── chat.png
 ├── README.md
 └── .gitignore
 ```
 
 ---
+
+# 🏗 Architecture
+
+Frontend (React + Tailwind CSS)
+        │
+        ▼
+ FastAPI Backend
+        │
+        ▼
+ Google Gemini API
+        │
+        ▼
+ RAG Pipeline
+ (FAISS + BM25)
+
+ ---
+ 
 
 # 🔮 Future Scope
 
@@ -108,7 +132,7 @@ Astralis-Beyond-Earth/
 - Citation-aware responses
 - Voice interaction
 - Personalized learning roadmap
-- Interactive Solar System visualization
+- Interactive 3D Solar System visualization
 - Space mission timeline
 - AI-powered quiz generation
 - User authentication and cloud deployment
@@ -124,3 +148,4 @@ Astralis-Beyond-Earth/
 # 📄 License
 
 This project was developed for educational and hackathon purposes.
+Built for the Google × Kaggle Kaggiculture Hackathon 2026.
